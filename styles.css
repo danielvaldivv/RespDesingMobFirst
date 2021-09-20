@@ -427,7 +427,7 @@ border-radius: 15px 0 0 0;
     width: 65%;
     min-width: 190px;
     max-width: 300px;
-    height: 250px;
+    height: auto;
     margin: 50px 10px 0;
     padding: 0 15px;
     background-color: var(--just-white);
