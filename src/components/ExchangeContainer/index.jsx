@@ -14,19 +14,19 @@ const ExchangeContainer = () => (
                         <table>
                             <tr>
                                 <td className="table__top-left">Bitcoin</td>
-                                <td className="table__top-right table__right">$ 1.96<span className="down"></span></td>
+                                <td className="table__top-right table__right">$ 1.96<span className="down" /></td>
                             </tr>
                             <tr>
                                 <td>Ethereum</td>
-                                <td className="table__right">$ 0.07 <span className="up"></span></td>
+                                <td className="table__right">$ 0.07 <span className="up" /></td>
                             </tr>
                             <tr>
                                 <td>Ripple</td>
-                                <td className="table__right">$ 2.15 <span className="down"></span></td>
+                                <td className="table__right">$ 2.15 <span className="down" /></td>
                             </tr>
                             <tr>
                                 <td className="table__bottom-left">Stellar</td>
-                                <td className="table__bottom-right table__right">$4.96 <span className="down"></span></td>
+                                <td className="table__bottom-right table__right">$4.96 <span className="down" /></td>
                             </tr>
                         </table>
                     </div>
