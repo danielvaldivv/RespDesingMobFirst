@@ -30,13 +30,13 @@ module.exports = {
         ],
       },
       {
-        test: /\.(css|scss)$/,
+        test: /\.(css|styl)$/,
         use: [
           {
             loader: MiniCssExtractPlugin.loader,
           },
           'css-loader',
-          'sass-loader',
+          'stylus-loader',
         ],
       },
       {
@@ -66,6 +66,6 @@ module.exports = {
     compress: true,
     historyApiFallback: true,
     open:true,
-    port: 3007,
+    port: 3006,
   },
 };

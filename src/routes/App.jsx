@@ -3,6 +3,9 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
 import Home from '../containers/Home/index'
 
+import '../assets/css/styles.styl'
+
+
 const App = () => (
     <BrowserRouter>
       <Switch>
@@ -10,7 +13,6 @@ const App = () => (
         {/* <Route component={Error404} /> */}
       </Switch>
     </BrowserRouter>
-  )
-
+)
 
 export default App
