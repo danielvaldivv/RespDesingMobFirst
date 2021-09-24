@@ -1,5 +1,9 @@
 import React from 'react'
 
+import Logo from '../../assets/icons/batata-logo.svg'
+
+import './Footer.styl'
+
 const Footer = () => (
     <footer>
         <section className="left">
@@ -9,7 +13,7 @@ const Footer = () => (
                 <li><a href="#">Hacekrnews</a></li>
             </ul>
         </section>
-        <section className="right"><img src="../../assets/icons/batata-logo.svg" alt="Logo de Batatabit" /></section>
+        <section className="right"><img src={Logo} alt="Logo de Batatabit" /></section>
     </footer>
 )
 
