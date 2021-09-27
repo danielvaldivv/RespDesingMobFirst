@@ -1,5 +1,9 @@
 import React from 'react'
 
+import arrowRight from '../../assets/icons/arrow-right 1.svg'
+
+import './PlansContainer.styl'
+
 const PlanContainer = () => (
     <section id="plans" className="main-plans-container">
             <div className="plans--title">
@@ -13,7 +17,7 @@ const PlanContainer = () => (
                         <h3 className="plan-card--title">Pago Anual</h3>
                         <p className="plan-card--prince"><span>$</span>99</p>
                         <p className="plan-card-saving">Ahorras $129 comprando al plan mensual</p>
-                        <button className="plan-card--ca">Escoge este  <span /> </button>
+                        <button type="button" className="plan-card--ca">Escoge este  <img src={arrowRight} alt="Arrow Right" /> </button>
                     </div>
                 </article>
                 <article className="plans-container--card">
@@ -21,7 +25,7 @@ const PlanContainer = () => (
                         <h3 className="plan-card--title">Pago Mensual</h3>
                         <p className="plan-card--prince"><span>$</span>120</p>
                         <p className="plan-card-saving">Cuotas mensuales de $12</p>
-                        <button className="plan-card--ca">Escoge este  <span></span></button>
+                        <button type="button" className="plan-card--ca">Escoge este  <img src={arrowRight} alt="Arrow Right" /></button>
                     </div>
                 </article>
                 <article className="plans-container--card">
@@ -29,7 +33,7 @@ const PlanContainer = () => (
                         <h3 className="plan-card--title">Pago Mensual</h3>
                         <p className="plan-card--prince"><span>$</span>120</p>
                         <p className="plan-card-saving">Cuotas mensuales de $12</p>
-                        <button className="plan-card--ca">Escoge este  <span></span></button>
+                        <button type="button" className="plan-card--ca">Escoge este  <img src={arrowRight} alt="Arrow Right" /></button>
                     </div>
                 </article>
             </section>

@@ -4,6 +4,8 @@ import ExchangeContainer from '../../components/ExchangeContainer'
 import PlanContainer from '../../components/PlansContainer'
 import ProductDetail from '../../components/ProductDetail'
 
+import './Main.styl'
+
 const Main = () =>  (
     <main>
         <ExchangeContainer />
